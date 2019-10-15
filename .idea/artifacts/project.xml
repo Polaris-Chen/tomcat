@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="project">
+    <output-path>$PROJECT_DIR$/out/artifacts/project</output-path>
+    <root id="archive" name="project.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/fristweb/web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="fristweb" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
